@@ -1,17 +1,22 @@
 # todo_list
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+A todo list flutter project utilizing SQFlite for the database, Flutter Bloc for state management and Go Router for navigation.
 
-This project is a starting point for a Flutter application.
+## Preview
 
-A few resources to get you started if this is your first Flutter project:
+<img src="screenshots/home-page.png" alt='Home Page' width="300">
+<img src="screenshots/add-task-page.png" alt='Add Task Page' width="300">
+<img src="screenshots/edit-task-page.png" alt='Edit Task Page' width="300">
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# todo-list-flutter
+Make sure you have Flutter sdk installed. Then run the following commands:
+
+<pre>
+> git clone https://github.com/abdimussa87/todo-list-flutter
+> cd todo-list-flutter
+> flutter pub get
+> flutter run
+</pre>
